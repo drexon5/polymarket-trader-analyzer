@@ -2,12 +2,6 @@
 
 **Complete setup guide for automated trader discovery**
 
----
-
-## 📋 Quick Reference
-
-**File:** This is your `README.md` - copy this entire content when creating the file in GitHub
-
 ## 🎯 System Overview
 
 ### Phase 1: Quick Scan (Every 6 hours)
