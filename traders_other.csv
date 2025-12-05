@@ -1,0 +1,5 @@
+address,username,pnl,volume,trades,avg_bet,win_rate,wins,losses,scanned_at,detailed_analysis,badges,main_category,specialization_pct,both_sides_ratio,avg_entry_price,max_drawdown,unique_markets,analyzed_at
+0x0dde1b35552efae5aa3759aedb6fa7b2d6f594c3,DFK,6583.61,221193.62,500,442.39,0.956,65,3,2025-12-05T21:16:04.429455,True,['High Roller'],Other,1.0,0.402,0.9,262.29,107,2025-12-05T21:19:23.611739
+0x2c7f59edbcfdd5d8b7d640ffddb0ee716461be25,Trumputin,577.64,151703.1,500,303.41,0.905,19,2,2025-12-05T21:16:09.936614,True,['High Roller'],Other,1.0,0.442,0.762,103.47,165,2025-12-05T21:19:25.839794
+0x3742e54d4b08706cbd6694d54b047092ed4034d1,TopMan2030,447.18,41821.73,500,83.64,0.75,3,1,2025-12-05T21:16:09.230267,True,[],Other,1.0,0.326,0.459,101.0,285,2025-12-05T21:19:24.656317
+0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8,StarMaster,288.38,98827.94,500,197.66,0.5,31,31,2025-12-05T21:16:02.383451,True,['Lottery Ticket'],Other,1.0,0.48,0.48,1202.59,100,2025-12-05T21:19:22.464187

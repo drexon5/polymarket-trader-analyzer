@@ -1,0 +1,92 @@
+{
+  "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8": {
+    "address": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
+    "username": "StarMaster",
+    "pnl": 288.38,
+    "volume": 98827.94,
+    "trades": 500,
+    "avg_bet": 197.66,
+    "win_rate": 0.5,
+    "wins": 31,
+    "losses": 31,
+    "scanned_at": "2025-12-05T21:16:02.383451",
+    "detailed_analysis": true,
+    "badges": [
+      "Lottery Ticket"
+    ],
+    "main_category": "Other",
+    "specialization_pct": 1.0,
+    "both_sides_ratio": 0.48,
+    "avg_entry_price": 0.48,
+    "max_drawdown": 1202.59,
+    "unique_markets": 100,
+    "analyzed_at": "2025-12-05T21:19:22.464187"
+  },
+  "0x0dde1b35552efae5aa3759aedb6fa7b2d6f594c3": {
+    "address": "0x0dde1b35552efae5aa3759aedb6fa7b2d6f594c3",
+    "username": "DFK",
+    "pnl": 6583.61,
+    "volume": 221193.62,
+    "trades": 500,
+    "avg_bet": 442.39,
+    "win_rate": 0.956,
+    "wins": 65,
+    "losses": 3,
+    "scanned_at": "2025-12-05T21:16:04.429455",
+    "detailed_analysis": true,
+    "badges": [
+      "High Roller"
+    ],
+    "main_category": "Other",
+    "specialization_pct": 1.0,
+    "both_sides_ratio": 0.402,
+    "avg_entry_price": 0.9,
+    "max_drawdown": 262.29,
+    "unique_markets": 107,
+    "analyzed_at": "2025-12-05T21:19:23.611739"
+  },
+  "0x3742e54d4b08706cbd6694d54b047092ed4034d1": {
+    "address": "0x3742e54d4b08706cbd6694d54b047092ed4034d1",
+    "username": "TopMan2030",
+    "pnl": 447.18,
+    "volume": 41821.73,
+    "trades": 500,
+    "avg_bet": 83.64,
+    "win_rate": 0.75,
+    "wins": 3,
+    "losses": 1,
+    "scanned_at": "2025-12-05T21:16:09.230267",
+    "detailed_analysis": true,
+    "badges": [],
+    "main_category": "Other",
+    "specialization_pct": 1.0,
+    "both_sides_ratio": 0.326,
+    "avg_entry_price": 0.459,
+    "max_drawdown": 101.0,
+    "unique_markets": 285,
+    "analyzed_at": "2025-12-05T21:19:24.656317"
+  },
+  "0x2c7f59edbcfdd5d8b7d640ffddb0ee716461be25": {
+    "address": "0x2c7f59edbcfdd5d8b7d640ffddb0ee716461be25",
+    "username": "Trumputin",
+    "pnl": 577.64,
+    "volume": 151703.1,
+    "trades": 500,
+    "avg_bet": 303.41,
+    "win_rate": 0.905,
+    "wins": 19,
+    "losses": 2,
+    "scanned_at": "2025-12-05T21:16:09.936614",
+    "detailed_analysis": true,
+    "badges": [
+      "High Roller"
+    ],
+    "main_category": "Other",
+    "specialization_pct": 1.0,
+    "both_sides_ratio": 0.442,
+    "avg_entry_price": 0.762,
+    "max_drawdown": 103.47,
+    "unique_markets": 165,
+    "analyzed_at": "2025-12-05T21:19:25.839794"
+  }
+}
