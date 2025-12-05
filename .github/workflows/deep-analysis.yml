@@ -1,0 +1,40 @@
+name: Deep Analysis (Daily)
+
+on:
+  schedule:
+    # Runs daily at 2:00 AM UTC
+    - cron: '0 2 * * *'
+  
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  deep-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests pandas
+    
+    - name: Run deep analysis
+      run: |
+        python deep_analysis.py
+    
+    - name: Commit results
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add traders_detailed.json
+        git add traders_quick.json
+        git add *.csv || true
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🔍 Deep analysis - $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
