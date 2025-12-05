@@ -1,0 +1,39 @@
+name: Quick Scan (Every 6 Hours)
+
+on:
+  schedule:
+    # Runs at 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 */6 * * *'
+  
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  quick-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests
+    
+    - name: Run quick scan
+      run: |
+        python quick_scan.py
+    
+    - name: Commit results
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add traders_quick.json
+        git add promising_traders.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "⚡ Quick scan - $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
