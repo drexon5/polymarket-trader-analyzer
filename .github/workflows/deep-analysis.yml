@@ -1,9 +1,9 @@
-name: Deep Analysis (Daily)
+name: Deep Analysis (Every 6 Hours)
 
 on:
   schedule:
-    # Runs daily at 2:00 AM UTC
-    - cron: '0 2 * * *'
+    # Runs at 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 */6 * * *'
   
   # Manual trigger
   workflow_dispatch:
