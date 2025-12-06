@@ -3221,7 +3221,7 @@
     "wins": 3,
     "losses": 2,
     "scanned_at": "2025-12-06T01:05:39.692873",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x593d35b4a344cdccd23d1fad7c9bedb6363b04c8": {
     "address": "0x593d35b4a344cdccd23d1fad7c9bedb6363b04c8",
@@ -3806,7 +3806,7 @@
     "wins": 15,
     "losses": 3,
     "scanned_at": "2025-12-06T01:05:45.236705",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0xafeacba37784d39233a4996c834ac1989c729342": {
     "address": "0xafeacba37784d39233a4996c834ac1989c729342",

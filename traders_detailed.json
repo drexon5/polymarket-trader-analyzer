@@ -88,5 +88,52 @@
     "max_drawdown": 103.47,
     "unique_markets": 165,
     "analyzed_at": "2025-12-05T21:19:25.839794"
+  },
+  "0x3a55b0c45449b955e43ec10734bd988bb5d1394e": {
+    "address": "0x3a55b0c45449b955e43ec10734bd988bb5d1394e",
+    "username": "90210",
+    "pnl": 1092.17,
+    "volume": 504990.89,
+    "trades": 500,
+    "avg_bet": 1009.98,
+    "win_rate": 0.6,
+    "wins": 3,
+    "losses": 2,
+    "scanned_at": "2025-12-06T01:05:39.692873",
+    "detailed_analysis": true,
+    "badges": [
+      "Whale"
+    ],
+    "main_category": "Other",
+    "specialization_pct": 1.0,
+    "both_sides_ratio": 0.175,
+    "avg_entry_price": 0.719,
+    "max_drawdown": 2437.71,
+    "unique_markets": 246,
+    "analyzed_at": "2025-12-06T03:08:55.692133"
+  },
+  "0x5f390e4b7d6f06d6756a6c92afdbf7b3176aa78c": {
+    "address": "0x5f390e4b7d6f06d6756a6c92afdbf7b3176aa78c",
+    "username": "oVyg7f",
+    "pnl": 273.73,
+    "volume": 5082.73,
+    "trades": 500,
+    "avg_bet": 10.17,
+    "win_rate": 0.833,
+    "wins": 15,
+    "losses": 3,
+    "scanned_at": "2025-12-06T01:05:45.236705",
+    "detailed_analysis": true,
+    "badges": [
+      "Lottery Ticket",
+      "Novice"
+    ],
+    "main_category": "Other",
+    "specialization_pct": 1.0,
+    "both_sides_ratio": 0.005,
+    "avg_entry_price": 0.447,
+    "max_drawdown": 280.59,
+    "unique_markets": 213,
+    "analyzed_at": "2025-12-06T03:08:57.041484"
   }
 }
