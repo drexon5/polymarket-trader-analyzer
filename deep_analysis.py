@@ -472,6 +472,11 @@ class DeepAnalyzer:
         # Convert to DataFrame
         df = pd.DataFrame(self.detailed_db.values())
 
+        # FIX: Fill NaN values in boolean columns before using ~
+        df['trades_both_sides'] = df['trades_both_sides'].fillna(False)
+        df['is_high_frequency'] = df['is_high_frequency'].fillna(False)
+        df['reasonable_odds_pct'] = df['reasonable_odds_pct'].fillna(0)
+
         # Calculate clean score for sorting
         df['clean_score'] = (
             (~df['trades_both_sides']).astype(int) * 30 +
