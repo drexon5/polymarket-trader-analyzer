@@ -4001,7 +4001,7 @@
     "wins": 38,
     "losses": 24,
     "scanned_at": "2025-12-06T06:20:28.488989",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0xa524bad7184b86ca16d1727ce232329bb681e860": {
     "address": "0xa524bad7184b86ca16d1727ce232329bb681e860",
@@ -4118,7 +4118,7 @@
     "wins": 43,
     "losses": 14,
     "scanned_at": "2025-12-06T06:20:29.636689",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x35de870388d756d67d22f454d3ba555bbf00b39a": {
     "address": "0x35de870388d756d67d22f454d3ba555bbf00b39a",
@@ -4157,7 +4157,7 @@
     "wins": 38,
     "losses": 32,
     "scanned_at": "2025-12-06T06:20:30.130474",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0xf94f30fc0b03eac95a1c8093e1e96de275e7393d": {
     "address": "0xf94f30fc0b03eac95a1c8093e1e96de275e7393d",
@@ -4534,7 +4534,7 @@
     "wins": 7,
     "losses": 3,
     "scanned_at": "2025-12-06T06:20:33.835332",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x0cac9668dadbfd554f74ad86eecc7dc4d478596a": {
     "address": "0x0cac9668dadbfd554f74ad86eecc7dc4d478596a",
@@ -4677,7 +4677,7 @@
     "wins": 6,
     "losses": 6,
     "scanned_at": "2025-12-06T06:20:35.370606",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0xccfad5b58b552097689e020614aad86028673576": {
     "address": "0xccfad5b58b552097689e020614aad86028673576",
@@ -5067,7 +5067,7 @@
     "wins": 6,
     "losses": 5,
     "scanned_at": "2025-12-06T06:20:39.057685",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x0d758798b9eb64241d472e3c7848f07374cc4c2b": {
     "address": "0x0d758798b9eb64241d472e3c7848f07374cc4c2b",
@@ -5561,7 +5561,7 @@
     "wins": 51,
     "losses": 26,
     "scanned_at": "2025-12-06T06:20:44.094617",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0xc7492294e6d9eb710183d6ca3142f4a49f902e5b": {
     "address": "0xc7492294e6d9eb710183d6ca3142f4a49f902e5b",
@@ -6016,7 +6016,7 @@
     "wins": 70,
     "losses": 23,
     "scanned_at": "2025-12-06T12:18:49.376094",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x45238aa076fadaafe15c332f656c70d1aad1baa8": {
     "address": "0x45238aa076fadaafe15c332f656c70d1aad1baa8",
@@ -6263,7 +6263,7 @@
     "wins": 8,
     "losses": 2,
     "scanned_at": "2025-12-06T12:18:51.053479",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x9f663b78904df1585057d0cd67a36ac5e950ad61": {
     "address": "0x9f663b78904df1585057d0cd67a36ac5e950ad61",
@@ -6822,7 +6822,7 @@
     "wins": 8,
     "losses": 8,
     "scanned_at": "2025-12-06T12:18:55.058083",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0xec5de5247067f82058cd9927e8ded9f7bf7cd7b4": {
     "address": "0xec5de5247067f82058cd9927e8ded9f7bf7cd7b4",
@@ -7368,7 +7368,7 @@
     "wins": 63,
     "losses": 37,
     "scanned_at": "2025-12-06T12:18:58.628077",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x2bc44702ef8bdf6a8af84fa5208ae4e91b8d58a7": {
     "address": "0x2bc44702ef8bdf6a8af84fa5208ae4e91b8d58a7",
@@ -7407,7 +7407,7 @@
     "wins": 2,
     "losses": 2,
     "scanned_at": "2025-12-06T12:18:58.771662",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x6b779ea66b2edfa917bd36a0f6d9c35bbe4210d8": {
     "address": "0x6b779ea66b2edfa917bd36a0f6d9c35bbe4210d8",
@@ -7784,7 +7784,7 @@
     "wins": 18,
     "losses": 6,
     "scanned_at": "2025-12-06T12:19:00.910411",
-    "detailed_analysis": false
+    "detailed_analysis": true
   },
   "0x44afef32248bf8198f2d456a990464e69a1ec7dd": {
     "address": "0x44afef32248bf8198f2d456a990464e69a1ec7dd",
